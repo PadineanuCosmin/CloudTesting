@@ -32,7 +32,7 @@ Java HotSpot(TM) 64-Bit Server VM (build 25.181-b13, mixed mode)
 
 1. Clone this repo locally.
 
-2. Run 
+2. Inside the root folder of the repo cloned from git /Questions3and4 run
 ```
 > npm install
 ```
