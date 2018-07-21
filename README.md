@@ -53,6 +53,6 @@ From inside the root folder of the repo cloned from git /Questions3and4 run any 
 ## Built With
 
 * [NodeJS](https://nodejs.org/en/) - Javascript engine
-* [mpm](https://www.npmjs.com/) - Dependency Management
+* [npm](https://www.npmjs.com/) - Dependency Management
 * [NightwatchJS](http://nightwatchjs.org/) - Selenium Framework
 
