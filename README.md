@@ -27,6 +27,7 @@ Java HotSpot(TM) 64-Bit Server VM (build 25.181-b13, mixed mode)
 ```
 3. Have git installed: https://git-scm.com/downloads
 4. Have NodeJS installed: https://nodejs.org/en/download/
+5. Have Chrome installed on you system
 
 ### Installing
 
