@@ -32,7 +32,7 @@ Java HotSpot(TM) 64-Bit Server VM (build 25.181-b13, mixed mode)
 
 2. Run 
 ```
-> npm install.
+> npm install
 ```
 
 ## Running the tests
