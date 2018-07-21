@@ -2,8 +2,9 @@
 
 ## Getting Started
 
-The tests for both Questions 3 and 4 can be found in the /tests path.
-The page objects used by these tests can be found in the /page_objects path.
+###The tests for both Questions 3 and 4 can be found in the /tests path.
+###The page objects used by these tests can be found in the /page_objects path.
+
 
 ### Prerequisites
 
