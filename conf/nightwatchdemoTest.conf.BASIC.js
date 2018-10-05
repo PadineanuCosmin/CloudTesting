@@ -6,7 +6,7 @@ const SCREENSHOT_PATH = "./screenshots/";
 // we use a nightwatch.conf.js file so we can include comments and helper functions
 module.exports = {
     "src_folders": [
-        "tests/question3"// Where you are storing your Nightwatch e2e tests
+        "tests/demoTest"// Where you are storing your Nightwatch e2e tests
     ],
     "page_objects_path": "page_objects",
     "output_folder": "./reports", // reports (test outcome) output by nightwatch
@@ -39,7 +39,7 @@ module.exports = {
             }
         }
     }
-}
+};
 
 function padLeft (count) { // theregister.co.uk/2016/03/23/npm_left_pad_chaos/
     return count < 10 ? '0' + count : count.toString();

@@ -1,8 +1,8 @@
 module.exports = {
     'Testing Ghost website' : function (browser) {
-        var question3 = browser.page.question3();
+        var demoTest = browser.page.demoTest();
         browser.windowMaximize();
-        question3.navigate()
+        demoTest.navigate()
             .clickGhostSupport()
             .searchGhostSupport(browser)
             .openResultGhostSupport();
