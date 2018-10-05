@@ -16,6 +16,8 @@ This framework contains configs to run tests on:
 2. [CosssBrowserTesting](https://app.crossbrowsertesting.com)
 3. [SauceLabs](https://saucelabs.com) - Version of config will run in parallel with a full account
 
+## If the demo accounts have expired just create your own ones and change the tokens in the config files in /conf path.
+
 
 
 
