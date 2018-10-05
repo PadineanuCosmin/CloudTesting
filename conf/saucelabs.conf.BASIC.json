@@ -1,0 +1,117 @@
+{
+  "src_folders" : ["tests"],
+  "output_folder" : "reports",
+  "custom_commands_path" : "",
+  "custom_assertions_path" : "",
+  "page_objects_path" : "page_objects",
+  "globals_path" : "",
+
+  "selenium" : {
+    "start_process" : false,
+    "server_path" : "",
+    "log_path" : "",
+    "port"  : 80,
+    "host"  : "ondemand.saucelabs.com",
+    "silent": true,
+    "screenshots" : {
+      "enabled" : false,
+      "path" : ""
+    },
+    "username" : "cosmincodecamp2",
+    "access_key" : "5c567bc0-e9c1-468c-81a0-11f83ec37a0f",
+    "cli_args" : {
+      "webdriver.chrome.driver" : "",
+      "webdriver.ie.driver" : ""
+    },
+    "desiredCapabilities": {
+      "javascriptEnabled": true,
+      "acceptSslCerts": true
+    }
+  },
+
+  "test_workers" : {"enabled" : true, "workers" : "auto"},
+
+  "test_settings" : {
+    "default" : {},
+    "chrome": {
+      "desiredCapabilities": {
+        "platform": "Windows 10",
+        "browserName": "chrome",
+        "version": "69.0",
+        "screenResolution": "1920x1080"
+      }
+    },
+    "firefox" : {
+      "desiredCapabilities": {
+        "platform": "Windows 10",
+        "browserName": "firefox",
+        "version": "62.0",
+        "screenResolution": "1920x1080"
+      }
+    },
+    "edge" : {
+      "desiredCapabilities": {
+        "platform": "Windows 10",
+        "browserName": "MicrosoftEdge",
+        "version": "16.16299",
+        "screenResolution": "1920x1080"
+      }
+    },
+    "ie" : {
+      "desiredCapabilities": {
+        "platform": "Windows 10",
+        "browserName": "internet explorer",
+        "version": "11.103",
+        "screenResolution": "1920x1080"
+      }
+    },
+    "safari" : {
+      "desiredCapabilities": {
+        "platform": "macOS 10.13",
+        "browserName": "safari",
+        "version": "11.1",
+        "screenResolution": "1920x1440"
+      }
+    },
+    "s9Plus" : {
+      "desiredCapabilities": {
+        "deviceName": "Samsung Galaxy S9 Plus WQHD GoogleAPI Emulator",
+        "appiumVersion": "1.9.1",
+        "browserName": "Chrome",
+        "platformName": "Android",
+        "platformVersion": "7.1",
+        "deviceOrientation": "portrait"
+      }
+    },
+    "galaxyTabS3" : {
+      "desiredCapabilities": {
+        "deviceName": "Samsung Galaxy Tab S3 GoogleAPI Emulator",
+        "appiumVersion": "1.9.1",
+        "browserName": "Chrome",
+        "platformName": "Android",
+        "platformVersion": "7.1",
+        "deviceOrientation": "portrait"
+      }
+    },
+    "iPhoneXSMax" : {
+      "desiredCapabilities": {
+        "deviceName": "iPhone XS Max Simulator",
+        "appiumVersion": "1.9.1",
+        "browserName": "Safari",
+        "platformName": "iOS",
+        "platformVersion": "12.0",
+        "deviceOrientation": "portrait"
+      }
+    },
+    "iPadPro" : {
+      "desiredCapabilities": {
+        "deviceName": "iPad Pro (12.9 inch) Simulator",
+        "appiumVersion": "1.9.1",
+        "browserName": "Safari",
+        "platformName": "iOS",
+        "platformVersion": "12.0",
+        "deviceOrientation": "portrait"
+      }
+    }
+  }
+}

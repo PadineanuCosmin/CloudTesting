@@ -3,8 +3,11 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "demoTest": "nightwatch --config conf/nightwatchdemoTest.conf.BASIC.js",
-    "all": "nightwatch --config conf/nightwatchAll.conf.BASIC.js"
+    "local": "nightwatch --config conf/local.conf.BASIC.js",
+    "browserstack": "nightwatch --config conf/browserstack.conf.BASIC.js -e chrome,firefox,ie,edge,safari,s8Plus,galaxyTab4,iPhone8Plus,iPad6th",
+    "crossbrowsertesting_desktop": "nightwatch --config conf/crossbrowsertesting.conf.BASIC.json -e chrome,firefox,ie,edge,safari",
+    "crossbrowsertesting_mobile": "nightwatch --config conf/crossbrowsertesting.conf.BASIC.json -e s7,nexus9,iPhone8,iPadPro",
+    "saucelabs": "nightwatch --config conf/saucelabs.conf.BASIC.json -e chrome && nightwatch --config conf/saucelabs.conf.BASIC.json -e firefox && nightwatch --config conf/saucelabs.conf.BASIC.json -e ie && nightwatch --config conf/saucelabs.conf.BASIC.json -e edge && nightwatch --config conf/saucelabs.conf.BASIC.json -e safari && nightwatch --config conf/saucelabs.conf.BASIC.json -e s9Plus && nightwatch --config conf/saucelabs.conf.BASIC.json -e galaxyTabS3 && nightwatch --config conf/saucelabs.conf.BASIC.json -e iPhoneXSMax && nightwatch --config conf/saucelabs.conf.BASIC.json -e iPadPro"
   },
   "dependencies": {
     "cookie-parser": "~1.4.3",

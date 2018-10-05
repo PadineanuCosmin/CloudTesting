@@ -1,11 +1,8 @@
 module.exports = {
-    'Testing Ghost website' : function (browser) {
+    'Testing Google website' : function (browser) {
         var demoTest = browser.page.demoTest();
-        browser.windowMaximize();
         demoTest.navigate()
-            .clickGhostSupport()
-            .searchGhostSupport(browser)
-            .openResultGhostSupport();
+            .checkIfGoogleIsOpen(browser);
         browser.end();
     }
 };

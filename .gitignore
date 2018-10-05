@@ -5,3 +5,4 @@ reports
 selenium-debug.log
 .idea
 package-lock.json
+selenium-server.log

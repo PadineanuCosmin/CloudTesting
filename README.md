@@ -1,10 +1,22 @@
-# Tests written for Qustions 3 and 4
+# Cloud testing platforms trial
 
 ## Getting Started
 
-The tests for both Questions 3 and 4 can be found in the /tests path.
+The demo test can be found in the /tests path.
 
 The page objects used by these tests can be found in the /page_objects path.
+
+The configuration files can be found in the /conf path.
+
+The command line scripts definitions can be found in the package.json file.
+
+This framework contains configs to run tests on:
+
+1. [BrowserStack](https://automate.browserstack.com)
+2. [CosssBrowserTesting](https://app.crossbrowsertesting.com)
+3. [SauceLabs](https://saucelabs.com) - Version of config will run in parallel with a full account
+
+
 
 
 ### Prerequisites
@@ -33,25 +45,29 @@ Java HotSpot(TM) 64-Bit Server VM (build 25.181-b13, mixed mode)
 
 1. Clone this repo locally.
 
-2. Inside the root folder of the repo cloned from git /Questions3and4 run
+2. Inside the root folder of the repo cloned from git /CodeCampCloudTesting run
 ```
 > npm install
 ```
 
 ## Running the tests
 
-From inside the root folder of the repo cloned from git /Questions3and4 run any of the following commands:
+From inside the root folder of the repo cloned from git /CodeCampCloudTesting run any of the following commands:
 ```
-> npm run all
-```
-```
-> npm run question3
+> npm run local
 ```
 ```
-> npm run question4
+> npm run browserstack
 ```
-
-# In case anything fails during environment setup you can find a video of the tests running under the /video folder
+```
+> npm run crossbrowsertesting_desktop
+```
+```
+> npm run crossbrowsertesting_mobile
+```
+```
+> npm run saucelabs
+```
 
 ## Built With
 
