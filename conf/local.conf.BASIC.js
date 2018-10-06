@@ -31,9 +31,9 @@ module.exports = {
             desiredCapabilities: { // use Chrome as the default browser for tests
                 "browserName": "chrome",
                 "javascriptEnabled": true, // turn off to test progressive enhancement
-                // "chromeOptions" : {
-                //     "args" : ["start-maximized"]
-                // }
+                 "chromeOptions" : {
+                     "args" : ["start-maximized"]
+                 }
             }
         },
     }
