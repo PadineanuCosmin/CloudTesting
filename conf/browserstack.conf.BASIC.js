@@ -10,8 +10,9 @@ nightwatch_config = {
     },
 
     common_capabilities: {
-        'browserstack.user': 'posmincadineanu1',
-        'browserstack.key': 'q7kWnKNWpssEJBbzdYH3',
+        'browserstack.user': 'ionionescu3',
+        'browserstack.key': '5KMHs9sTZA9PsqiKry1i',
+        'browserstack.video': 'true',
         globals: {
             'waitForConditionTimeout': 5000 // sometimes internet is slow so wait.
         },
