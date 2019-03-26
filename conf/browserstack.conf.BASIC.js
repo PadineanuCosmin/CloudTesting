@@ -25,7 +25,7 @@ nightwatch_config = {
                 'os': 'Windows',
                 'os_version': '10',
                 'browser': 'Chrome',
-                'browser_version': '69.0',
+                'browser_version': '73.0',
                 'resolution': '1920x1080',
             }
         },
@@ -34,7 +34,7 @@ nightwatch_config = {
                 'os': 'Windows',
                 'os_version': '10',
                 'browser': 'Firefox',
-                'browser_version': '62.0',
+                'browser_version': '66.0',
                 'resolution': '1920x1080',
             }
         },
@@ -61,36 +61,36 @@ nightwatch_config = {
                 'os': 'OS X',
                 'os_version': 'High Sierra',
                 'browser': 'Safari',
-                'browser_version': '11.0',
+                'browser_version': '12.0',
                 'resolution': '1920x1080',
             }
         },
-        s8Plus: {
+        s9Plus: {
             desiredCapabilities: {
-                'device': 'Samsung Galaxy S8 Plus',
+                'device': 'Samsung Galaxy S9 Plus',
                 'realMobile': 'true',
-                'os_version': '7.0'
+                'os_version': '8.0'
             }
         },
-        galaxyTab4: {
+        galaxyTabS4: {
             desiredCapabilities: {
-                'device': 'Samsung Galaxy Tab 4',
+                'device': 'Samsung Galaxy Tab S4',
                 'realMobile': 'true',
-                'os_version': '4.4'
+                'os_version': '8.1'
             }
         },
-        iPhone8Plus: {
+        iPhoneXSMax: {
             desiredCapabilities: {
-                'device': 'iPhone 8 Plus',
+                'device': 'iPhone XS Max',
                 'realMobile': 'true',
-                'os_version': '11.0'
+                'os_version': '12.0'
             }
         },
-        iPad6th: {
+        iPadPro12_9_2018: {
             desiredCapabilities: {
-                'device': 'iPad 6th',
+                'device': 'iPad Pro 12.9 2018',
                 'realMobile': 'true',
-                'os_version': '11.3'
+                'os_version': '12.3'
             }
         }
     }
