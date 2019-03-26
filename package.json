@@ -6,7 +6,7 @@
     "local": "nightwatch --config conf/local.conf.BASIC.js",
     "browserstack": "nightwatch --config conf/browserstack.conf.BASIC.js -e chrome,firefox,ie,edge,safari,s9Plus,galaxyTabS4,iPhoneXSMax,iPadPro12_9_2018",
     "crossbrowsertesting_desktop": "nightwatch --config conf/crossbrowsertesting.conf.BASIC.json -e chrome,firefox,ie,edge,safari",
-    "crossbrowsertesting_mobile": "nightwatch --config conf/crossbrowsertesting.conf.BASIC.json -e s7,nexus9,iPhone8,iPadPro",
+    "crossbrowsertesting_mobile": "nightwatch --config conf/crossbrowsertesting.conf.BASIC.json -e s8,nexus9,iPhoneXR,iPad6thGeb",
     "saucelabs": "nightwatch --config conf/saucelabs.conf.BASIC.json -e chrome && nightwatch --config conf/saucelabs.conf.BASIC.json -e firefox && nightwatch --config conf/saucelabs.conf.BASIC.json -e ie && nightwatch --config conf/saucelabs.conf.BASIC.json -e edge && nightwatch --config conf/saucelabs.conf.BASIC.json -e safari && nightwatch --config conf/saucelabs.conf.BASIC.json -e s9Plus && nightwatch --config conf/saucelabs.conf.BASIC.json -e galaxyTabS3 && nightwatch --config conf/saucelabs.conf.BASIC.json -e iPhoneXSMax && nightwatch --config conf/saucelabs.conf.BASIC.json -e iPadPro",
     "testingbot": "nightwatch -t ./tests -c ./conf/testingbot.js -e chrome,firefox,safari,ie,GalaxyS9,Nexus7,iphoneX,iPad6thGen"
   },

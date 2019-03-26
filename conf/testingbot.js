@@ -18,29 +18,29 @@ nightwatch_config = {
     chrome: {
       desiredCapabilities: {
         browser: "chrome",
-        version: "73",
-        platform:"WIN10"
+        platform:"WIN10",
+        version: "73"
       }
     },
     firefox: {
       desiredCapabilities: {
         browser: "firefox",
-        version: "66",
-        platform:"WIN10"
+        platform:"WIN10",
+        version: "66"
       }
     },
     safari: {
       desiredCapabilities: {
         browser: "safari",
-        version: "11",
-        platform:"HIGH-SIERRA"
+        platform:"HIGH-SIERRA",
+        version: "11"
       }
     },
     ie: {
       desiredCapabilities: {
         browser: "internet explorer",
-        version: "11",
-        platform:"WIN10"
+        platform:"WIN10",
+        version: "11"
       }
     },
     edge: {
@@ -70,7 +70,7 @@ nightwatch_config = {
     },
     iphoneX: {
       desiredCapabilities: {
-        platformName: 'Android',
+        platformName: 'iOS',
         deviceName: 'iPhone X',
         browserName: "safari",
         platform:"iOS",
@@ -79,7 +79,7 @@ nightwatch_config = {
     },
     iPad6thGen: {
       desiredCapabilities: {
-        platformName: 'Android',
+        platformName: 'iOS',
         deviceName: 'iPad (6th generation)',
         browserName: "safari",
         platform:"iOS",
