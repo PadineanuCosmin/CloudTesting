@@ -15,6 +15,7 @@ This framework contains configs to run tests on:
 1. [BrowserStack](https://automate.browserstack.com)
 2. [CosssBrowserTesting](https://app.crossbrowsertesting.com)
 3. [SauceLabs](https://saucelabs.com) - Version of config will run in parallel with a full account
+3. [TestingBot](https://testingbot.com)
 
 ## If the demo accounts have expired just create your own ones and change the tokens in the config files in /conf path.
 
@@ -69,6 +70,9 @@ From inside the root folder of the repo cloned from git /CodeCampCloudTesting ru
 ```
 ```
 > npm run saucelabs
+```
+```
+> npm run testingbot
 ```
 
 ## Built With
