@@ -1,0 +1,125 @@
+{
+    "src_folders" : ["tests"],
+    "output_folder" : "reports",
+    "custom_commands_path" : "",
+    "custom_assertions_path" : "",
+    "page_objects_path" : "page_objects",
+    "globals_path" : "",
+
+    "selenium" : {
+        "start_process" : false,
+        "silent": true,
+        "caps" : {
+          "record_video": true
+        },
+        "screenshots" : {
+          "enabled" : true,
+          "path" : ""
+        },
+        "port"  : 80,
+        "host"  : "hub.crossbrowsertesting.com",
+        "username": "ACCOUNTEMAIL",
+        "access_key": "uddf06cfd6b2341f"
+    },
+    "test_settings" : {
+      "default" : {
+        "desiredCapabilities": {
+          "record_video": "true"
+        }
+      },
+      "chrome" : {
+        "desiredCapabilities": {
+          "acceptSslCerts": "1",
+          "browserName": "Chrome",
+          "version": "72x64",
+          "javascriptEnabled": "1",
+          "platform" : "Windows 10",
+          "screen_resolution" : "1920x1080"
+        }
+      },
+      "firefox" : {
+        "desiredCapabilities": {
+          "acceptSslCerts": "1",
+          "browserName": "Firefox",
+          "version": "65x64",
+          "javascriptEnabled": "1",
+          "platform" : "Windows 10",
+          "screen_resolution" : "1920x1080"
+        }
+      },
+      "edge" : {
+        "desiredCapabilities": {
+          "acceptSslCerts": "1",
+          "browserName": "MicrosoftEdge",
+          "version": "18",
+          "javascriptEnabled": "1",
+          "platform" : "Windows 10",
+          "screen_resolution" : "1920x1080"
+        }
+      },
+      "ie" : {
+        "desiredCapabilities": {
+          "acceptSslCerts": "1",
+          "browserName": "Internet Explorer",
+          "version": "11",
+          "javascriptEnabled": "1",
+          "platform" : "Windows 10",
+          "screen_resolution" : "1920x1080"
+        }
+      },
+      "safari" : {
+        "desiredCapabilities": {
+          "acceptSslCerts": "1",
+          "browserName": "Safari",
+          "version": "12",
+          "javascriptEnabled": "1",
+          "platform" : "Mac OSX 10.14",
+          "screen_resolution" : "1920x1200"
+        }
+      },
+      "s8" : {
+        "desiredCapabilities": {
+          "acceptSslCerts": true,
+          "browserName": "Chrome",
+          "deviceName": "Galaxy S8",
+          "platformName": "Android",
+          "platformVersion": "8.0",
+          "deviceOrientation": "portrait",
+          "javascriptEnabled": "1"
+        }
+      },
+      "nexus9" : {
+        "desiredCapabilities": {
+          "acceptSslCerts": true,
+          "browserName": "Chrome",
+          "deviceName": "Nexus 9",
+          "platformName": "Android",
+          "platformVersion": "6.0",
+          "deviceOrientation": "portrait",
+          "javascriptEnabled": "1"
+        }
+      },
+      "iPhoneXR" : {
+        "desiredCapabilities": {
+          "acceptSslCerts": true,
+          "browserName": "Safari",
+          "deviceName": "iPhone XR Simulator",
+          "platformName": "iOS",
+          "platformVersion": "12.0",
+          "deviceOrientation": "portrait",
+          "javascriptEnabled": "1"
+        }
+      },
+      "iPad6thGeb" : {
+        "desiredCapabilities": {
+          "acceptSslCerts": true,
+          "browserName": "Safari",
+          "deviceName": "iPad 6th Generation Simulator",
+          "platformName": "iOS",
+          "platformVersion": "12.0",
+          "deviceOrientation": "landscape",
+          "javascriptEnabled": "1"
+        }
+      }
+    }
+}
