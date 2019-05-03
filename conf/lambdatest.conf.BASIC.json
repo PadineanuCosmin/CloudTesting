@@ -1,0 +1,56 @@
+{
+  "src_folders" : ["tests"],
+  "output_folder" : "reports",
+  "page_objects_path" : "page_objects",
+  "globals_path" : "",
+
+  "selenium" : {
+    "start_process" : false,
+    "server_path" : "",
+    "log_path" : "",
+    "host" : "hub.lambdatest.com",
+    "port" : 80,
+    "cli_args" : {
+      "webdriver.chrome.driver" : "",
+      "webdriver.ie.driver" : "",
+      "webdriver.firefox.profile" : ""
+    }
+  },
+
+  "test_workers" : {"enabled" : true, "workers" : "auto"},
+
+  "test_settings" : {
+    "default" : {
+      "launch_url" : "https://lambdatest.com",
+      "selenium_port"  : 80,
+      "selenium_host"  : "https://cosmin.padineanu:XEnc9hdmsYFAwbFNAIRPxMUIJTRZvvWmVyljMCIBico1Ca67lS@hub.lambdatest.com/wd/hub",
+      "silent": false,
+      "screenshots" : {
+        "enabled" : true,
+        "path" : ""
+      },
+      "username" : "cosmin.padineanu",
+      "access_key" : "XEnc9hdmsYFAwbFNAIRPxMUIJTRZvvWmVyljMCIBico1Ca67lS",
+
+      "skip_testcases_on_fail": false,
+
+      "desiredCapabilities": {
+        "build":"Nightwatch-Selenium-Sample",
+        "visual":true,
+        "video":true,
+        "console":true,
+        "network":true
+      }
+    },
+
+    "chrome": {
+      "desiredCapabilities": {
+        "platform": "Windows 8",
+        "browserName": "chrome",
+        "version": "73.0",
+        "resolution" : "1920x1080",
+        "visual" : true
+      }
+    }
+  }
+}
